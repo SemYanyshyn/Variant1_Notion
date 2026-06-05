@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Exams>
+    <Exam>
+       <StudentId>1</StudentId> 
+       <SubjectId>2</SubjectId>
+       <Score>89</Score>
+    </Exam>
+    <Exam>
+       <StudentId>2</StudentId> 
+       <SubjectId>3</SubjectId>
+       <Score>38</Score>
+    </Exam>
+    <Exam>
+       <StudentId>3</StudentId> 
+       <SubjectId>2</SubjectId>
+       <Score>51</Score>
+    </Exam>
+</Exams>
