@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Students>
     <Student>
         <Id>1</Id>
-        <Surname>Sherban</Surname>
-        <GroupId>2</GroupId>
-    </Student>
-    <Student>
-        <Id>2</Id>
-        <Surname>Yaroshko</Surname>
+        <Surname>Demus</Surname>
         <GroupId>1</GroupId>
     </Student>
     <Student>
-        <Id>3</Id>
+        <Id>2</Id>
         <Surname>Yanyshyn</Surname>
+        <GroupId>2</GroupId>
+    </Student>
+    <Student>
+        <Id>3</Id>
+        <Surname>Sherban</Surname>
         <GroupId>3</GroupId>
     </Student>
     <Student>
         <Id>4</Id>
-        <Surname>Demus</Surname>
+        <Surname>Yaroshko</Surname>
         <GroupId>3</GroupId>
     </Student>
 </Students>
