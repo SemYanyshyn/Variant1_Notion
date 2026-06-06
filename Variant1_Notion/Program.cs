@@ -107,8 +107,8 @@ public static class DataLoader
             from student in document.Root.Elements("Student")
             select new Student(
                 (int)student.Element("Id"),
-                (int)student.Element("GroupName"),
-                (string)student.Element("Surname")
+                (string)student.Element("Surname"),
+                (int)student.Element("GroupId")
             );
 
         return students;
@@ -143,22 +143,20 @@ public static class DataLoader
         return subjects;
     }
 
-    public static IEnumerable<Exam> ExamLoader(string path)
+    public static IEnumerable<Exam> ExamLoader(IEnumerable<string> paths)
     {
-        XDocument document = XDocument.Load(path);
-
         var exams = 
-        from exam in document.Root.Elements("Exam")
-        select new Exam(
-            (int)exam.Element("StudentId"),
-            (int)exam.Elements("SubjectId"),
-            (int)exam.Elements("Score")
-        );
+            from path in paths
+            let document = XDocument.Load(path)
+            from exam in document.Root.Elements("Exam")
+            select new Exam(
+                (int)exam.Element("StudentId"),
+                (int)exam.Element("SubjectId"),
+                (int)exam.Element("Score")
+            );
         return exams;
     }
 }
-
-
 
 public class Program
 {
