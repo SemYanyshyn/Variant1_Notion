@@ -1,1 +1,0 @@
-# Variant1_Notion
