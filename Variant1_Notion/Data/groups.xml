@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Groups>
+    <Group>
+        <Id>1</Id>
+        <GroupName>PMI-21</GroupName>
+    </Group>
+    <Group>
+        <Id>2</Id>
+        <GroupName>PMI-22</GroupName>
+    </Group>
+    <Group>
+        <Id>3</Id>
+        <GroupName>PMI-23</GroupName>
+    </Group>
+</Groups>
