@@ -163,8 +163,7 @@ public class Program
     public static void Main()
     {
         // AppContext.BaseDirectory — це папка, звідки запускається програма [bin/Debug/net10.0/]
-        string dataDirectory = AppContext.BaseDirectory;
-
+        string dataDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Variant1_Notion", "Data");
         string studentsPath = Path.Combine(dataDirectory, "students.xml"); // Це створює повний шлях до файлу students.xml.
         string groupsPath = Path.Combine(dataDirectory, "groups.xml");
         string subjectsPath = Path.Combine(dataDirectory, "subjects.xml");

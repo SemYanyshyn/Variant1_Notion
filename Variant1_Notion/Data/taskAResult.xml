@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TaskA>
+  <Group Name="PMI-21">
+    <Student Surname="Demus" Credits="12" />
+  </Group>
+  <Group Name="PMI-22">
+    <Student Surname="Yanyshyn" Credits="7" />
+  </Group>
+  <Group Name="PMI-23">
+    <Student Surname="Sherban" Credits="16" />
+    <Student Surname="Yaroshko" Credits="12" />
+  </Group>
+</TaskA>
